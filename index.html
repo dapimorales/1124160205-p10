@@ -20,6 +20,32 @@
       color: #fff; /* Warna teks */
     }
 
+        /* ### POSITIONING ### */
+    .positioning-container {
+      position: relative; /* Referensi untuk elemen yang posisinya absolut */
+      height: 200px;
+      border: 1px solid #aaa;
+    }
+
+        .positioned-box {
+      position: absolute; /* Ditempatkan relatif terhadap container */
+      top: 20px;
+      right: 20px;
+      width: 100px;
+      height: 100px;
+      background-color: salmon;
+    }
+
+        /* ### DISPLAY DAN LAYOUT ### */
+    .inline-box {
+      display: inline-block; /* Elemen bisa berdampingan, tapi masih bisa diberi ukuran */
+      width: 100px;
+      height: 100px;
+      background-color: lightblue;
+      margin: 5px;
+      text-align: center;
+    }
+
     
     </style>
 </head>
@@ -29,5 +55,17 @@
   <div class="box-model">
     Ini contoh Box Model. Ada padding, border, dan margin.
   </div>
+
+    <!-- POSITIONING -->
+  <h2>2. Positioning</h2>
+  <div class="positioning-container">
+    <div class="positioned-box">Posisi Absolut</div>
+  </div>
+
+   <!-- DISPLAY DAN LAYOUT -->
+  <h2>3. Display dan Layout</h2>
+  <div class="inline-box">Box 1</div>
+  <div class="inline-box">Box 2</div>
+  
 </body>
 </html>
