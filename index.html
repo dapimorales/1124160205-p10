@@ -41,9 +41,24 @@
       display: inline-block; /* Elemen bisa berdampingan, tapi masih bisa diberi ukuran */
       width: 100px;
       height: 100px;
-      background-color: lightblue;
+      background-color: lightpink;
       margin: 5px;
       text-align: center;
+    }
+
+        /* ### FLEXBOX ### */
+    .flex-container {
+      display: flex; /* Mengaktifkan Flexbox */
+      gap: 10px; /* Jarak antar item */
+      justify-content: center; /* Rata tengah horizontal */
+      background-color: #6c4545;
+      padding: 10px;
+    }
+
+    .flex-item {
+      background-color: #ade66d;
+      padding: 20px;
+      color: white;
     }
 
     
@@ -66,6 +81,14 @@
   <h2>3. Display dan Layout</h2>
   <div class="inline-box">Box 1</div>
   <div class="inline-box">Box 2</div>
+
+    <!-- FLEXBOX -->
+  <h2>4. Flexbox</h2>
+  <div class="flex-container">
+    <div class="flex-item">Flex 1</div>
+    <div class="flex-item">Flex 2</div>
+    <div class="flex-item">Flex 3</div>
+  </div>
   
 </body>
 </html>
