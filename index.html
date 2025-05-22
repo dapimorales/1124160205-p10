@@ -61,6 +61,21 @@
       color: white;
     }
 
+        /* ### CSS GRID ### */
+    .grid-container {
+      display: grid; /* Mengaktifkan Grid layout */
+      grid-template-columns: repeat(3, 1fr); /* 3 kolom dengan lebar sama */
+      gap: 10px;
+      background-color: #fafafa;
+      padding: 10px;
+    }
+
+    .grid-item {
+      background-color: #03a9f4;
+      padding: 20px;
+      color: white;
+    }
+
     
     </style>
 </head>
@@ -89,6 +104,16 @@
     <div class="flex-item">Flex 2</div>
     <div class="flex-item">Flex 3</div>
   </div>
+
+   <!-- CSS GRID -->
+  <h2>5. CSS Grid</h2>
+  <div class="grid-container">
+    <div class="grid-item">Grid 1</div>
+    <div class="grid-item">Grid 2</div>
+    <div class="grid-item">Grid 3</div>
+  </div>
+
+  
   
 </body>
 </html>
