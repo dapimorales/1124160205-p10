@@ -94,6 +94,18 @@
       }
     }
 
+        /* ### TRANSFORMASI DAN ANIMASI ### */
+    .animated-box {
+      width: 100px;
+      height: 100px;
+      background-color: rgb(237, 241, 97);
+      margin: 20px auto;
+      transition: transform 0.5s; /* Animasi perubahan transform */
+    }
+
+    .animated-box:hover {
+      transform: rotate(15deg) scale(1.2); /* Efek rotasi dan perbesaran saat hover */
+    }
     
     </style>
 </head>
@@ -136,6 +148,10 @@
   <div class="responsive-box">
     Ubah ukuran jendela browser untuk melihat perubahan warna!
   </div>
+  
+    <!-- TRANSFORMASI DAN ANIMASI -->
+  <h2>7. Transformasi dan Animasi</h2>
+  <div class="animated-box"></div>
   
 </body>
 </html>
